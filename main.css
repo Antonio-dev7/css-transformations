@@ -1,0 +1,53 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #e84610;
+    transform: translate(100px, 100px);
+}
+
+
+/* ===================================================
+making image bigger by hover function. mixed with 
+transition and transform.
+
+img {
+	margin: 50px;
+    transition: tranform 1s ease; 
+}
+
+img:hover {
+    transform: scale(2);
+}
+========================================================*/
+
+
+/* ==================================================
+spin picture or img. non stop.
+img {
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg); 
+  }
+}
+==================================== */
+
+/* ==========================================
+squqre moving side by side tansition.
+.element {
+	background-color: #0997d3;
+	width: 200px;
+	height: 200px;
+    transition: transform 1s ease-in-out;
+}
+
+.element:hover {
+    transform: translateX(100%);
+}
+=========================================*/
